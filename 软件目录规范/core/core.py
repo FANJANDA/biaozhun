@@ -1,5 +1,4 @@
-import time
-from lib.common import logger
+from 软件目录规范.lib.common import logger
 
 
 def login():
