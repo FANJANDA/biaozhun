@@ -1,5 +1,5 @@
 import time
-from 软件目录规范.conf.settings import LOG_PATH
+from biaozhun.conf.settings import LOG_PATH
 
 
 def logger(msg):

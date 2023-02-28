@@ -1,4 +1,4 @@
-from 软件目录规范.lib.common import logger
+from biaozhun.lib.common import logger
 
 
 def login():
