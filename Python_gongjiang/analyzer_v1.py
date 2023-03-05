@@ -34,7 +34,7 @@ def analyze_v1():
                 path_groups[path][level] += 1
             except KeyError:
                 path_groups[path][level] = 1
-
+# {path:{level:1}}
     for path, result in path_groups.items():
         print(f'== Path: {path}')
         total = sum(result.values())
